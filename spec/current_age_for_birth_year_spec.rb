@@ -2,7 +2,7 @@ require_relative '../current_age_for_birth_year.rb'
 
 describe "current_age_for_birth_year method" do
   it "returns the age of a person based on the year of birth" do
-    age_of_person = current_year(2018) - current_age_for_birth_year(1999)
+    age_of_person = current_year(2003) - current_age_for_birth_year(1984)
 
     expect(age_of_person).to eq(19)
   end
